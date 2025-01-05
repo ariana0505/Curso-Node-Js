@@ -7,7 +7,7 @@ const {readFile} = require('node:fs/promises');
     async()=>{
     console.log('-> Leyendo el primer archivo....')
     //ubicacion , lenguaje
-    const text = await readFile('./archivo.txt', 'utf-8')
+    const text = await readFile('./archivo.txt', 'utf-8')//ESPERA QUE SE RESUELVA
     console.log('Primer text:' + text)
 
     console.log("-->Ejecutando Otra Tarea");
