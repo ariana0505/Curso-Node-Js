@@ -1,4 +1,4 @@
-const fs = require('node:js/promises')
+const fs = require('node:fs/promises')
 fs.readdir('.')
     .then(files=>{
         files.forEach(file => {

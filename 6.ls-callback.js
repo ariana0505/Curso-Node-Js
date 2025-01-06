@@ -1,4 +1,4 @@
-const fs = require('node:js')
+const fs = require('node:fs')
 fs.readdir('.', (err,files)=>{
     //si err existe
     if(err){
